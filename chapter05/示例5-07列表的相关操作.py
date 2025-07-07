@@ -35,5 +35,3 @@ print(new_lst,id(new_lst))
 #根据索引进行修改元素
 lst[1]='MySQL'
 print(lst)
-
-#
