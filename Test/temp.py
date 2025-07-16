@@ -33,9 +33,14 @@ for car in cars:
 """ abc = "bmw"
 print(abc == "bmw")
  """
-# 斐波那契数列：
+""" # 斐波那契数列：
 # 前两项之和即下一项的值
 a, b = 0, 1
 while a < 100:
     print(a)
-    a, b = b, a + b
+    a, b = b, a + b """
+
+num=int(input('请输入您的六位中奖号码：'))
+
+result='恭喜您中奖了！' if num==654321 else '您本期未中大奖！'
+print(result)
