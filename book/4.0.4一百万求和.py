@@ -1,0 +1,5 @@
+value=list(range(1,1000001))
+value_min=min(value)
+value_max=max(value)
+value_sum=sum(value)
+print(value_min,value_max,value_sum)
