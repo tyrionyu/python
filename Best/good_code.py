@@ -22,3 +22,24 @@ print(word_list)
 items=["A","B","C"]
 for index,item in enumerate(items):
     print(index,item)
+
+'''字符串反转'''
+text_s='hello'
+print(text_s[::-1]) #输出：olleh
+
+'''字符串拼接'''
+words=['python','is','awesome']
+print(' '.join(words))
+
+'''字符串格式化'''
+name='Alice'
+age=25
+print(f"{name} is {age} years old.")
+
+'''分割字符串'''
+text_split='apple,banana,cherry'
+print(text_split(','))
+
+'''替换字符串内容'''
+text_abc='I like Java'
+print(text_abc.replace('java','python'))
