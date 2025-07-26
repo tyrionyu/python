@@ -81,8 +81,18 @@
 # friut_b=["apple","banana","mango"]
 # result_friut_b=friut_b[::-1]
 # print(result_friut_b)   #输出 ['mango', 'banana', 'apple']
-
 # print(len(friut_b))
-s = input("请输入5个小写字母：")
-ls=s.upper()[-1::-1]
-print(','.join(ls))
+
+# s = input("请输入5个小写字母：")
+# ls=s.upper()[-1::-1]
+# print(','.join(ls))
+
+
+# L = [75, 92, 59, 68, 99]
+# sum = 0
+# for i in L:
+#     sum=sum+i
+# print(sum)
+
+text='python'
+print(text[4:4])    #输出：空
